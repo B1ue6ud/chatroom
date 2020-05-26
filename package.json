@@ -1,12 +1,21 @@
 {
-	"name": "socket-chat-example",
-	"version": "0.0.1",
-	"description": "my first socket.io app",
-	"dependencies": {
-		"express": "^4.15.2",
-		"socket.io": "^2.3.0"
-	},
+  "name": "Chatroom",
+  "version": "1.0.0",
+  "description": "Just a simple chat room.",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
-  }
+  },
+  "keywords": [
+    "node",
+    "express",
+    "socket.io",
+    "realtime",
+    "websocket"
+  ],
+  "author": "mostang",
+  "license": "MIT",
+  "dependencies": {
+	  "express": "^4.15.2",
+	  "socket.io": "^2.3.0"
+  },
 }
